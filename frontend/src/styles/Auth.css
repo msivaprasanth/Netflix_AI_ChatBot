@@ -1,0 +1,155 @@
+/* ✨ Netflix AI Chatbot – Auth Pages (Login / Register) */
+
+body {
+  background: linear-gradient(135deg, #f7f9fc, #eaeef5);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Auth container box */
+.auth-container {
+  width: 400px;
+  margin: 80px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  color: #222;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Title */
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #e50914;
+}
+
+/* Inputs */
+.auth-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #f9f9f9;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.auth-container input:focus {
+  border-color: #e50914;
+}
+
+/* Buttons */
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #f40612;
+}
+
+/* Switch text (Register <-> Login) */
+.switch-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
+
+.switch-link {
+  color: #e50914;
+  text-decoration: none;
+  font-weight: bold;
+  transition: text-decoration 0.3s ease;
+}
+
+.switch-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .auth-container {
+    width: 90%;
+    padding: 30px;
+  }
+}
+/* ✨ Reset Password Page Enhancements */
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e50914;
+}
+
+.auth-container p {
+  text-align: center;
+  color: #555;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #f9f9f9;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.auth-container input:focus {
+  border-color: #e50914;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #f40612;
+}
+
+.auth-container button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.switch-text {
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+}
+
+.switch-link {
+  color: #e50914;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.switch-link:hover {
+  text-decoration: underline;
+}
