@@ -30,22 +30,30 @@ A full-stack AI-powered chatbot built using Spring Boot, React, MongoDB, and Oll
 ##  Setup Instructions
 
 ### 1️⃣ Clone Repository
-git clone https://github.com/<your-username>/Netflix_AI_ChatBot.git
+git clone https://github.com/msivaprasanth/Netflix_AI_ChatBot.git
+
 cd Netflix_AI_ChatBot
 
 ### 2️⃣ Backend Setup
 mvn clean install
+
 mvn spring-boot:run
 
 ### 3️⃣ FrontEnd Setup
 cd frontend
+
 npm install
+
 npm start
 
 ### 4️⃣ Configure Environment 
 spring.data.mongodb.uri=mongodb://localhost:27017/netflix_ai_chatbot
+
 spring.ai.ollama.base-url=http://localhost:11434
+
 spring.ai.ollama.chat.model=tinyllama
+
 spring.mail.username=your-email@gmail.com
+
 spring.mail.password=your-app-password
 
